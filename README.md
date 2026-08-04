@@ -28,8 +28,4 @@ technical work — code, plots, results, and reflections — is in `stellar_lumi
 
 ## Main result
 
-The polynomial model (mass and mass squared) fits the observed data far better than the
-straight line — final cost 2.96 vs 13.82 — and its residuals show no systematic pattern.
-However, the lower training error does not imply scientific validity: outside the observed
-range (mass = 5.0) both models extrapolate poorly, showing the importance of representation
-and the boundaries of the evidence.
+The polynomial model using mass and mass squared provides a much better fit to the observed data than the linear model, with a final cost of 2.96 compared to 13.82. The residuals also appear more randomly distributed, suggesting that the model captures the trend in the data better. However, a lower training error does not guarantee that the model is physically meaningful. When extrapolating beyond the observed range (for example, at mass = 5.0), both models produce unreliable predictions, highlighting the importance of choosing an appropriate model and considering the limits of the available data.
